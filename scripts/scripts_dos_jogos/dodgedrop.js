@@ -1,5 +1,5 @@
 function voltar() {
-    let pagina_home = window.location.href = "/home.html"
+    let pagina_home = window.location.href = "/index.html"
 }
 
 const canvas = document.getElementById('gameCanvas');

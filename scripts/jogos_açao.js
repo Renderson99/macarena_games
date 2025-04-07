@@ -73,5 +73,5 @@ function mudar_cor_fundo() {
 }
 
 function voltar() {
-    let pagina_home = window.location.href = "/home.html"
+    let pagina_home = window.location.href = "/index.html"
 }

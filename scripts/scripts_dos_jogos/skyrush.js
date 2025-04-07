@@ -4,7 +4,7 @@ const canvas = document.getElementById('gameCanvas');
         const restartButton = document.getElementById('restartButton');
         
         function voltar() {
-            let pagina_home = window.location.href = "/home.html"
+            let pagina_home = window.location.href = "/index.html"
         }   
 
         // Função para gerenciar controles móveis

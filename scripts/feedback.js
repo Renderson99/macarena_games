@@ -24,5 +24,5 @@ document.getElementById('feedback-form').addEventListener('submit', function(e) 
 
 // Butão de voltar para a página home (inicio)
 function voltar() {
-    let pagina_home = window.location.href = "/home.html"
+    let pagina_home = window.location.href = "/index.html"
 }

@@ -150,5 +150,5 @@ const canvas = document.getElementById('gameCanvas');
 
         // butão voltar 
         function voltar() {
-            let pagina_home = window.location.href = "/home.html"
+            let pagina_home = window.location.href = "/index.html"
         }
