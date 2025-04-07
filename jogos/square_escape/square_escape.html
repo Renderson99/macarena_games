@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macarena - Square Escape</title>
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/square_escape.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/orientation-message.css">
+
+
+</head>
+<body>
+    <div class="game-container">
+
+        <nav>
+            <button id="bt_volta" onclick="voltar()">
+                <span  class="material-symbols-outlined" >Arrow_back</span>
+            </button>
+        </nav>
+
+        <div id="instrução">
+            <p>Para controlar aperte a tecla <strong>'W'</strong>  ou <strong>'espaço'</strong> </p>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <div>
+            <button id="startButton">Começar Jogo</button>
+            <button id="restartButton" style="display: none;">Jogar Novamente</button>
+        </div>
+
+        <p>Pontuação: <span id="score">0</span></p>
+
+    </div>
+
+    <script src="/scripts/scripts_dos_jogos/squere_escape.js">
+        
+    </script><script src="/scripts/orientation-manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Macarena - SkyRush</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/skyrush-pc.css">
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/skyrush-mobile.css">
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/orientation-message.css">
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+    
+</head>
+<body>
+
+        <nav>
+            <button id="bt_volta" onclick="voltar()">
+                <span  class="material-symbols-outlined" >Arrow_back</span>
+            </button>
+        </nav>
+
+    <main>
+        <div id="score">Pontuação: 0</div>
+        <canvas id="gameCanvas" width="800px" height="500px"></canvas>
+        <button id="restartButton" onclick="restartGame()">Voltar ao Jogo</button>
+
+        <div id="instruçao">
+            <p>
+                esquerda ⬅️ cima ⬆️ direita ➡️ baixo ⬇️
+            </p>
+            <p>
+                A cada 100 pontos a velocidade almenta
+            </p>
+        </div>
+
+        <!-- Controles móveis -->
+        <div class="mobile-controls">
+            <div class="direction-buttons">
+                <button class="up" onpointerdown="handleMobileControl('ArrowUp', true)" onpointerup="handleMobileControl('ArrowUp', false)">⬆️</button>
+                <button class="left" onpointerdown="handleMobileControl('ArrowLeft', true)" onpointerup="handleMobileControl('ArrowLeft', false)">⬅️</button>
+                <button class="right" onpointerdown="handleMobileControl('ArrowRight', true)" onpointerup="handleMobileControl('ArrowRight', false)">➡️</button>
+                <button class="down" onpointerdown="handleMobileControl('ArrowDown', true)" onpointerup="handleMobileControl('ArrowDown', false)">⬇️</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="/scripts/orientation-manager.js"></script>
+    <script src="/scripts/scripts_dos_jogos/skyrush.js"></script>
+
+</body>
+</html>

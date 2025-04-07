@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f5f5f7;
+}
+
+nav {
+    justify-self: start;
+}
+
+nav > button {
+    background-color: #0957ff;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+div#instrução {
+    height: 50px;
+    width: 20vw;
+    justify-self: center;
+    background-color: #f5f5f7;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.237);
+}
+
+canvas {
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.405);
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+}
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: black;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}

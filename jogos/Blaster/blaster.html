@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macarena - Blaster</title>
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/blaster.css">
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/orientation-message.css">
+
+
+</head>
+<body>
+    <div class="game-container">
+
+        <nav>
+            <button id="bt_volta" onclick="voltar()">
+                <span  class="material-symbols-outlined" >Arrow_back</span>
+            </button>
+        </nav>
+
+        <p>
+            esquerda ⬅️ direita ➡️ tecla <strong>Espaço para atirar</strong> e <strong>'R' para recarregar</strong>
+        </p>
+
+        <canvas id="gameCanvas" width="700" height="500"></canvas>
+
+        <div id="menu">
+
+            <button id="startButton">Iniciar Jogo</button>
+
+            <button id="restartButton" style="display: none;">Jogar Novamente</button>
+
+        </div>
+
+    </div>
+
+    <script src="/scripts/scripts_dos_jogos/blaster.js"></script>
+    <script src="/scripts/orientation-manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Macarena - Square Jump</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/square_jump.css">
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/orientation-message.css">
+
+    
+</head>
+<body>
+
+    <nav>
+        <button id="bt_volta" onclick="voltar()">
+            <span  class="material-symbols-outlined" >Arrow_back</span>
+        </button>
+    </nav>
+
+    <div id="instruçao">
+        <p>
+            Tecla <strong>Espaço</strong> para pular ⬆️ 
+        </p>
+        <p>
+            A cada 200 de Score a velocidade almenta
+        </p>
+    </div>
+
+    <div class="game-container">
+        <div id="score">Score: 0</div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <button id="startButton">Começar Jogo</button>
+        <button id="restartButton" style="display: none;">Jogar Novamente</button>
+        
+        <!-- Elementos de áudio prontos para uso -->
+        <audio id="jumpSound" src="/som/som_jogos/som_square_jump/musica_pulo.mp3"></audio>
+        <audio id="crashSound" src="/som/som_jogos/som_square_jump/som_derrota.mp3"></audio>
+    </div>
+
+    
+
+    <script src="/scripts/scripts_dos_jogos/squere_jump.js">
+        
+    </script><script src="/scripts/orientation-manager.js"></script>
+</body>
+</html>

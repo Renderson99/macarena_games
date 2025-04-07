@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/estilos/pg_feedback/feedback-pc.css">
+
+    <link rel="stylesheet" href="/estilos/pg_feedback/feedback-mobile.css">
+
+</head>
+<body>
+    <header>
+
+        <button id="bt_volta" onclick="voltar()">
+            <span  class="material-symbols-outlined" >Arrow_back</span>
+        </button>
+
+        <div id="logo">
+            <a href="/home.html"><img src="/imagens/logotipos200x80/fundo_branco.png" alt="logotipo da macarena games"></a>
+        </div>
+    </header>
+    <main>
+        <div class="feedback-container">
+            <h2>Deixe sua sugestão</h2>
+            <form id="feedback-form">
+                <label for="sugestao">O que você acha que podemos melhorar no nosso site?</label>
+                <textarea id="sugestao" name="sugestao" placeholder="Escreva sua sugestão aqui..." required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="/scripts/feedback.js"></script>
+</body>
+</html>

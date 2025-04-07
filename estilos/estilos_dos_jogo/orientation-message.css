@@ -1,0 +1,31 @@
+#orientation-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    max-width: 80%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#orientation-message::before {
+    content: '📱';
+    display: block;
+    font-size: 40px;
+    margin-bottom: 10px;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(90deg); }
+    100% { transform: rotate(0deg); }
+} 

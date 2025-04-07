@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+nav > button#bt_volta {
+    background-color:#0957ff ;
+    color: #ffffff;
+
+    padding: 10px;
+
+    margin: 0px 30px 0px 0px;
+
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+}
+
+div#instruçao {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f8;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.27);
+    color: rgb(0, 0, 0);
+    margin: 0px 5px 0px 0px;
+    height: 60px;
+    width: 400px;
+    padding: 5px 10px 20px 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+canvas {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.212);
+    display: block;
+    margin: 0 auto;
+}
+.game-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#score {
+    font-size: 24px;
+    margin: 10px;
+    color: blue;
+}

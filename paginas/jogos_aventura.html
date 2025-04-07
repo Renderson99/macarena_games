@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macarena games - jogos de Aventura</title>
+
+    <link rel="stylesheet" href="/estilos/jogos_aventura.css">
+
+    <link rel="shortcut icon" href="imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+</head>
+<body>
+    <header>
+
+        <button id="bt_volta"onclick="voltar()">
+            <span class="material-symbols-outlined" >Arrow_back</span>
+        </button>
+
+        <a href="/home.html">
+            <img  id="logo" src="/imagens/logotipos200x80/fundo_branco.png" alt="logotipo da Macarena games">
+        </a>
+         
+        <nav id="area_menu">
+
+            <menu>
+
+                <button id="açao" onclick="jogos_açao()">
+                    Ação
+                </button>
+
+                <button id="casual" onclick="jogos_casual()">
+                    Casual
+                </button>
+                
+            </menu>
+
+        </nav>
+
+        <button id="bt_cor_fundo" onclick="mudar_cor_fundo()">
+            <span  class="material-symbols-outlined" >Contrast</span>
+        </button>
+        
+    </header>
+
+    <main>
+        
+            <section id="area1" class="area">
+
+                <article onclick="entra_jogo1()">
+                    <a href="/jogos/SkyRush/SkyRush.html" alt="Jogo Sky Rush">
+
+                        <img class="capa_jogo" src="/imagens/capas_do_jogos/skyrush.png" width="150px" alt="imagem do Sky Rush">
+
+                        <h3>Sky Rush</h3>
+                        <p style="color: green; justify-self: center;">Aventura</p>
+
+                    </a>
+                </article>
+
+                <article onclick="entra_jogo3()">
+                    <a href="/jogos/square_escape/square_escape.html">
+
+                        <img class="capa_jogo" src="/imagens/capas_do_jogos/capa_square_escape.png" width="150px" alt="capa do jo Square Escape">
+                    </a>
+
+                    <h3>Square Escape</h3>
+                    <p style="color: green; justify-self: center;">Aventura</p>
+
+                </article>
+
+                <article onclick="entra_jogo5()">
+                    <a href="/jogos/square_jump/square_jump.html">
+
+                        <img class="capa_jogo" src="/imagens/capas_do_jogos/capa_square_jump.png" width="150" height="152" alt="capa do jogo Square Jump">
+                    </a>
+
+                    <h3>Square Jump</h3>
+                    <p style="color: green; justify-self: center;">Aventura</p>
+
+                </article>
+                
+            </section>
+    </main>
+    <footer>
+
+        <div class="logo_footer">
+            <img id="logo_footer" src="/imagens/logotipos200x80/fundo_branco.png" alt="Logotipo da Macarena games">
+        </div>
+
+        <nav class="area_footer">
+
+                <button id="butao_sn" onclick="ir_para_sobrenos()">
+                    Sobre Nós
+                </button>
+
+                <button id="butao_fb" onclick="ir_para_feedback()">
+                    Feedback
+                </button>
+
+            </nav>
+    </footer>
+
+    <script src="/scripts/jogos_aventura.js"></script>
+</body>
+</html>

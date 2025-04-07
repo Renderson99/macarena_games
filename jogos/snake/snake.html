@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake - Macarena Games</title>
+
+    <link rel="shortcut icon" href="/imagens/favicon/fundo_branco_maior.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/snake.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="/estilos/estilos_dos_jogo/orientation-message.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <button id="bt_volta" onclick="voltar()">
+                <span  class="material-symbols-outlined" >Arrow_back</span>
+            </button>
+        </nav>
+
+        <p>
+           controles:(Cetas) Esquerda ⬅️  Cima ⬆️ Direita ➡️ Baixo⬇️
+        </p>
+    </header>
+
+    <main>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <button id="startButton">Iniciar Jogo</button>
+        <button id="restartButton">Jogar Novamente</button>
+    </main>
+
+    <script src="/scripts/scripts_dos_jogos/snake.js"></script>
+    
+    <script src="/scripts/orientation-manager.js"></script>
+</body>
+</html>

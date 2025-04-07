@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f7f7f9;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header {
+    height: 50px;
+    width:150px;
+}
+
+
+nav > button#bt_volta {
+    background-color:#0957ff ;
+    color: #ffffff;
+
+    padding: 10px;
+
+    margin: 0px 30px 0px 0px;
+
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+}
+
+main {
+    height: 700px;
+}
+
+div#instruçao {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f8;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.27);
+    color: rgb(0, 0, 0);
+    margin: 0px 5px 0px 0px;
+    height: 60px;
+    width: 785px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+}
+
+canvas {
+    margin: 50px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.187);
+    
+}
+
+#score {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#restartButton {
+    display: none; /* Escondido até o game over */
+    font-size: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: rgb(230, 255, 3);
+    color: blue;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
