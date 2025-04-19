@@ -13,7 +13,7 @@ function voltar() {
             bt.style.backgroundColor = "white"
             document.body.style.backgroundColor = "black"
             
-            logo.src = "/imagens/logotipos200x80/fundo_preto.png"
+            logo.src = "/imagens/logotipos200x80/colorido_sem_fundo.png"
 
             fundo.style.backgroundColor = "#121212"
             fundo.style.color = "#BDCBE3"
@@ -21,10 +21,10 @@ function voltar() {
         } else {
             bt.style.color = "white"
             bt.style.backgroundColor = "black"
-            document.body.style.backgroundColor = "#f5f5f7"
-            logo.src = "/imagens/logotipos200x80/fundo_branco.png"
+            document.body.style.backgroundColor = "white"
+            logo.src = "/imagens/logotipos200x80/colorido_com_fundo_branco.png" // muda o logo para sem fundo
 
-            fundo.style.backgroundColor = "#f5f5f7"
+            fundo.style.backgroundColor = "white"
             fundo.style.color = "black"
         }
     

@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: #f5f5f7
+    background-color: white
     
 }
 
 header {
-    background-color: #f5f5f7;
+    background-color: white;
     color: rgb(0, 0, 0);
     height: 100px;
     display: flex;
@@ -21,7 +21,7 @@ header {
     flex: 1 1 100vw;
 
     background-image: linear-gradient(to right, #ff1111, rgb(242, 255, 0), #09ff47, rgb(11, 76, 255));
-    background-size: 100% 4px; /* Altura do gradiente (20px no bottom) */
+    background-size: 100% 2px; /* Altura do gradiente (20px no bottom) */
     background-position: bottom; /* Posiciona no fundo */
     background-repeat: no-repeat;
 }
@@ -88,25 +88,13 @@ header > span#bt_input {
     display: none;
 }
 
-header > button#bt_cor_fundo {
-    background-color: black;
-    color: white;
-
-    border: none;
-    border-radius: 10px;
-
-    padding: 10px;
-    transition: .5s;
-
-}
-
 header > button#bt_cor_fundo:hover {
     cursor: pointer;
     padding: 15px;
 }
 
 main {
-    background-color: #f5f5f7;
+    background-color: white;
 }
 
 section#area1 {
@@ -120,7 +108,7 @@ section#area1 {
 }
 
 article {
-    background-color: #f5f5f7;
+    background-color: white;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.113);
     width: 180px;
     flex: 0 0 200px;
@@ -131,6 +119,13 @@ article {
     border-radius: 10px;
     transition: .5s;
  
+}
+
+/* estilo da categoria de jogos casual*/
+
+article > p.categoria_casual {
+    color: rgb(255, 149, 0) ;
+    font-size: 13pt;
 }
 
 
@@ -159,12 +154,12 @@ section > article > a {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #f5f5f7;
+    background-color: white;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #f5f5f7;
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -172,7 +167,7 @@ footer {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 350px;
-    background-image: linear-gradient(to right, #ff1111, rgb(242, 255, 0), #09ff47, rgb(11, 76, 255));
+    background-image: linear-gradient(to right, #ff1111, #f2ff00, #09ff47, #0b4cff);
     background-size: 100% 2px; /* Aumentei a altura do gradiente para ficar visível */
     background-position: top; /* Posiciona no topo */
     background-repeat: no-repeat;
@@ -182,11 +177,13 @@ footer {
 
 
 footer > div.logo_footer > img {
-    margin: 20px 0px 0px 10px ;
+    margin: 20px 0px 10px 10px ;
+    display: flex;
+    justify-self: center;
 }
 
 footer > nav.area_footer {
-    background-color: #f5f5f9;
+    background-color: white;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     height: 200px;

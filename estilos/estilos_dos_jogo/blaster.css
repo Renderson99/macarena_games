@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f5f5f7;
+    background-color: white;
 }
 
 nav {
@@ -42,7 +42,7 @@ canvas {
     display: block;
     margin: 0 auto;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.331);
-    background-color: #f2e2f7;
+    background-color: white;
 }
 
 .game-container {

@@ -85,16 +85,16 @@ function mudar_cor_fundo() {
         nav.style.backgroundColor = "#f5f5f7"; // Só funciona se nav não for null
         bt.style.color = "white";
         bt.style.backgroundColor = "black";
-        body.style.backgroundColor = "#f5f5f7";
-        header.style.backgroundColor = "#f5f5f7";
-        area.style.backgroundColor = "#f5f5f7";
-        footer.style.backgroundColor = "#f5f5f7";
+        body.style.backgroundColor = "white";
+        header.style.backgroundColor = "white";
+        area.style.backgroundColor = "white";
+        footer.style.backgroundColor = "white";
         logo.src = "/imagens/logotipos200x80/fundo_branco.png";
         logo_footer.src = "/imagens/logotipos200x80/fundo_branco.png";
-        fundo_main.style.backgroundColor = "#f5f5f7";
+        fundo_main.style.backgroundColor = "white";
         fundo_main.style.color = "black";
         area_jogo.forEach(article => {
-            article.style.backgroundColor = "#f5f5f7";
+            article.style.backgroundColor = "white";
             article.style.color = "black";
         });
         text_h3.forEach(h3 => {

@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background-color: #f5f5f7;
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 
@@ -38,7 +38,7 @@ main {
 
 #gameCanvas {
     border: none;
-    background-color: #f5f5f7;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.192);
     

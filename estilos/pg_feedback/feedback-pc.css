@@ -1,7 +1,7 @@
 @charset "UFT-8";
 
 body {
-    background-color: #f5f5f7;
+    background-color: white;
 }
 
 header {
@@ -36,7 +36,7 @@ span#bt_volta:hover {
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f5f5f7;
+    background-color: white;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.167);
     border: none;
     border-radius: 5px;
