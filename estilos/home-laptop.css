@@ -14,6 +14,10 @@
         width: 50vw;
     }
 
+    main {
+        height: auto;
+    }
+
     section#area1, #area2 {
         display: block;
         column-gap: 10px;

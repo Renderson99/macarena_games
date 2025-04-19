@@ -33,6 +33,10 @@
     
     }
 
+    main {
+        height: auto;
+    }
+
     section#area1, #area2{
         display: block;
         column-gap: 10px;
@@ -48,7 +52,14 @@
 
     article {
         margin: 20px 20px 80px 50px;
+    }
 
+    article:hover {
+        background-color: #f5f5f7;
+    }
+
+    footer  > nav.area_footer > button#butao_sn:hover {
+        cursor: pointer;
     }
 
 

@@ -11,11 +11,11 @@ function voltar() {
         if (bt.style.color === "white") {
             bt.style.color = "black"
             bt.style.backgroundColor = "white"
-            document.body.style.backgroundColor = "black"
+            document.body.style.backgroundColor = "#101218"
             
             logo.src = "/imagens/logotipos200x80/colorido_sem_fundo.png"
 
-            fundo.style.backgroundColor = "#121212"
+            fundo.style.backgroundColor = "#101518"
             fundo.style.color = "#BDCBE3"
 
         } else {

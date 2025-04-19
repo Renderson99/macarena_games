@@ -12,20 +12,13 @@
         display: none;
     }
 
-    header > button#bt_cor_fundo {
-        background-color: black;
-        color: white;
-    
-        border: none;
-        border-radius: 10px;
-    
-        padding: 5px;
-        transition: .5s;
-    
+    header > button#bt_cor_fundo:hover {
+        cursor: pointer;
     }
 
     main {
         width: 100vw;
+        height: auto;
     }
 
 
@@ -47,11 +40,18 @@
         margin: 10px 0px 0px 25%;
     }
 
+    article:hover {
+        background-color: #f5f5f7;
+    }
+
 
     footer > nav.area_footer {
         display: grid;
     }
 
+    footer  > nav.area_footer > button#butao_sn:hover {
+        cursor: pointer;
+    }
     
 }
 
@@ -87,6 +87,10 @@
 
     article {
         margin: 10px 0px 0px 35%;
+    }
+
+    article:hover {
+        background-color: #f5f5f7;
     }
 
     footer > nav.area_footer {
@@ -131,6 +135,10 @@
 
     article {
         margin: 10px 0px 0px 35%;
+    }
+
+    article:hover {
+        background-color: #f5f5f7;
     }
 
     footer > nav.area_footer {
