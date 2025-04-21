@@ -31,8 +31,8 @@ img#logo {
     height: 80px;
 }
 
+
 header > nav#area_menu {
-    display: block;
     width: 30vw;
     height: 100px;
     display: flex;
@@ -48,7 +48,7 @@ header > nav#area_menu > menu {
 }
 
 header > nav#area_menu > menu > button {
-    padding: 5px 10px;
+    padding: 10px;
     margin: 2px 5px 0px 0px;
 
     border-radius: 10px;
@@ -62,7 +62,6 @@ header > nav#area_menu > menu > button {
 }
 
 header > nav#area_menu > menu > button:hover {
-    padding: 15px 25px;
     cursor: pointer;
 }
 
@@ -77,15 +76,6 @@ header > nav#area_menu > menu > button#casual {
 
 header > nav#area_menu > menu > button#aventura {
     background-color: rgb(0, 166, 41);
-}
-
-header > span#bt_input {
-    display: none;
-}
-
-header > button#bt_cor_fundo:hover {
-    cursor: pointer;
-    padding: 15px;
 }
 
 main {
@@ -105,7 +95,7 @@ section#area1, #area2 {
 
 article {
     background-color: white;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.113);
+    /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.113); */
     width: 180px;
     flex: 0 0 200px;
     height: 200px;
@@ -113,6 +103,7 @@ article {
     margin: 0px 0px 20px 10px;
     text-align: center;
     border-radius: 10px;
+    border: 1px solid #dedede;
     transition: .5s;
  
 }
@@ -136,11 +127,8 @@ article > p.categoria_aventura {
 
 article:hover {
     cursor: pointer;
-    width: 185px;
-    height: 205px;
-    margin: 10px;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.113);
-}
+    background-color: #f5f5f7;
+} 
 
 .capa_jogo {
     border-radius: 10px;
@@ -210,7 +198,6 @@ footer  > nav.area_footer > button#butao_sn {
 
 footer  > nav.area_footer > button#butao_sn:hover {
     cursor: pointer;
-    padding: 20px;
 }
 
 
@@ -227,5 +214,5 @@ footer > nav.area_footer > button#butao_fb  {
 
 footer > nav.area_footer > button#butao_fb:hover {
     cursor: pointer;
-    padding: 20px;
+    
 }

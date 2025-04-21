@@ -8,12 +8,23 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    header > nav#area_menu {
-        display: none;
+    header {
+        height: auto;
+        align-items: start;
     }
 
-    header > button#bt_cor_fundo:hover {
-        cursor: pointer;
+
+    header > button#bt_menu {
+        background-color: white;
+        color: blue;
+        border-radius: 20px;
+        border: none;
+        padding: 8px;
+        display: block;
+    }
+
+    header > nav#area_menu {
+        display: none;
     }
 
     main {
@@ -31,19 +42,13 @@
         width: 100vw;
         height: auto;
         /*height: 1650px;*/
-        margin: 0px 50px 0px 0px;
-        
+        margin: 0px 50px 0px 0px; 
         
     }
 
     article {
         margin: 10px 0px 0px 25%;
     }
-
-    article:hover {
-        background-color: #f5f5f7;
-    }
-
 
     footer > nav.area_footer {
         display: grid;
