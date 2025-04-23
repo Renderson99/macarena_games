@@ -16,7 +16,7 @@ function ir_para_feedback() {
 }
 
 function entra_jogo4() {
-    let pagina_blaster = window.location.href = "/jogos/blaster/blaster.html"
+    let pagina_blaster = window.location.href = "/jogos/Blaster/blaster.html"
 }
 
 function voltar() {
